@@ -20,7 +20,15 @@ public class Animal {
         System.out.println("The animal is sleeping...");
     }
 
+    public void eat() {
+        System.out.println(name + " is eating food");
+    }
+
     public void eat(String food) {
         System.out.println(name + " is eating " + food);
+    }
+
+    public void eat(String food, int quantity) {
+        System.out.println(name + " is eating " + quantity + " units of " + food);
     }
 }

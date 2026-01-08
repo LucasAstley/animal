@@ -7,10 +7,11 @@ public class Main {
 
         Animal.sleep();
 
-        cow.eat("grass");
+        cow.eat();
 
         Dog dog = new Dog("Seymour", 2);
         dog.bark();
         dog.eat("bones");
+        dog.eat("steak", 3);
     }
 }
