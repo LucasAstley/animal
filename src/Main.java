@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -32,5 +34,18 @@ public class Main {
         //dog.secretMethod(); // Erreur : la méthode est private
 
         dog.play();
+
+        Cat cat = new Cat("Felix", 3);
+        cat.play();
+
+        ArrayList<Animal> animalArray = new ArrayList<>();
+        animalArray.add(cow);
+        animalArray.add(dog);
+        animalArray.add(cat);
+
+        System.out.println("Animals in the array :");
+        for (Animal animal : animalArray) {
+            System.out.println(animal.getName());
+        }
     }
 }
