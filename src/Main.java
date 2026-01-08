@@ -30,5 +30,7 @@ public class Main {
 
         // On peut également appliquer ces règles d'accès aux méthodes :
         //dog.secretMethod(); // Erreur : la méthode est private
+
+        dog.play();
     }
 }
