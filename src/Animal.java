@@ -19,4 +19,8 @@ public class Animal {
     public static void sleep() {
         System.out.println("The animal is sleeping...");
     }
+
+    public void eat(String food) {
+        System.out.println(name + " is eating " + food);
+    }
 }

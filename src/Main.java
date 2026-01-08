@@ -6,5 +6,11 @@ public class Main {
         cow.moo();
 
         Animal.sleep();
+
+        cow.eat("grass");
+
+        Dog dog = new Dog("Seymour", 2);
+        dog.bark();
+        dog.eat("bones");
     }
 }
