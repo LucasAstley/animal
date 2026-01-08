@@ -16,4 +16,7 @@ public class Animal {
         System.out.println(name + " says: " + sound);
     }
 
+    public static void sleep() {
+        System.out.println("The animal is sleeping...");
+    }
 }

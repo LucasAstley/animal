@@ -4,6 +4,7 @@ public class Main {
         Cow cow = new Cow("Bridget", 4);
         System.out.println(cow.getName());
         cow.moo();
-    }
 
+        Animal.sleep();
+    }
 }
