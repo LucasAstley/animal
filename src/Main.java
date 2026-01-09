@@ -47,5 +47,13 @@ public class Main {
         for (Animal animal : animalArray) {
             System.out.println(animal.getName());
         }
+
+        Owner owner = new Owner("Bob");
+        owner.addAnimal(cat);
+
+        // On ne peut pas instancier directement Animal car la classe est abstract :
+        //Animal testAnimal = new Animal("Javriel", 12);
+
+        cat.hunt();
     }
 }
